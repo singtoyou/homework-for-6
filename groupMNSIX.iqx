@@ -1,0 +1,343 @@
+﻿==================================================================================
+指导语
+在所有实验开始之前
+
+<page instruct1>
+接下来您将会看到一个故事或一幅图片，
+^看完后请按空格键继续
+^然后请按要求评价您的感受
+^^之后您会再看到一个故事
+^看完后请按空格键
+^并按要求评价您的感受
+</page>
+
+<instruct instruct1>
+	/nextkey = (" ")
+	/fontstyle = ("楷体", 3%, false, false, false, false, 5, 1)
+	/txcolor = (0,0,0)
+	/screencolor = (255,255,255)
+	/lastlabel = "按空格键开始"
+</instruct>
+=========================================================================================
+四个图片刺激+感谢语句设置
+
+<item PICTURE1>
+    /1 = "1.bmp"
+</item>
+
+<item PICTURE2>
+    /2 = "2.bmp"
+</item>
+
+<item PICTURE3>
+    /3 = "3.bmp"
+</item>
+
+<item PICTURE4>
+    /4 = "4.bmp"
+</item>
+
+<item PICTURE5>
+    /5 = "5.bmp"
+</item>
+
+<picture PICTURE1>
+	/erase = True(0,0,0) 
+	/halign = center
+	/items = PICTURE1
+	/size = (1024,768)
+</picture>
+
+<picture PICTURE2>
+	/erase = True(0,0,0)
+	/halign = center
+	/items = PICTURE2
+	/size = (1024,768)
+</picture>
+
+<picture PICTURE3>
+	/erase = True(0,0,0)
+	/halign = center
+	/items = PICTURE3
+	/size = (1024,768)
+</picture>
+
+<picture PICTURE4>
+	/erase = True(0,0,0)
+	/halign = center
+	/items = PICTURE4
+	/size = (1024,768)
+</picture>
+
+<picture PICTURE5>
+	/erase = True(0,0,0)
+	/halign = center
+	/items = PICTURE5
+	/size = (1024,768)
+</picture>
+
+======================================================================================================
+数据收集题
+required:是否为必选项，true是必选项，false是非必选项
+orientation：选项的布局。horizontal是水平排列，vertical是竖直排列
+caption：题干
+
+<radiobuttons q1>
+	/caption = "快乐的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q2>
+	/caption = "良好的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q3>
+	/caption = "悲伤的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q4>
+	/caption = "糟糕的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q5>
+	/caption = "同情的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q6>
+	/caption = "心软的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q7>
+	/caption = "温暖的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q8>
+	/caption = "怜悯的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q9>
+	/caption = "温柔的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q10>
+	/caption = "感动的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q11>
+	/caption = "警觉的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q12>
+	/caption = "悲痛的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q13>
+	/caption = "烦恼的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q14>
+	/caption = "痛苦的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q15>
+	/caption = "沮丧的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q16>
+	/caption = "被扰乱的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q17>
+	/caption = "担忧的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+<radiobuttons q18>
+	/caption = "不安的"
+	/ options = ("1", "2", "3", "4","5","6","7")
+	/ optionvalues = ("1", "2", "3", "4","5","6","7")
+	/required = true
+	/orientation = horizontal
+</radiobuttons>
+
+
+
+============================================================================================
+设置调查页面，surveypage可以直接被block引用，在/trial中引用
+<surveypage page1>
+	/caption ="请按照您的情况对以下形容感受的词语进行打分"
+	/subcaption = "分数越高意味着该词越符合您的情况"
+	/fontstyle = ("楷体", 5%, false, false, false, false, 5, 1)
+	/subcaptionfontstyle = ("楷体", 3%, false, false, false, false, 5, 1)
+	/itemfontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/responsefontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/txcolor = (0, 0, 0)
+	/questions = [1 = q1, q2, q3, q4]
+	/showpagenumbers = false
+	/showquestionnumbers = false
+    /nextlabel = "按空格键继续"
+</surveypage>
+
+<surveypage page2>
+	/caption ="请按照您的情况对以下形容感受的词语进行打分"
+	/subcaption = "分数越高意味着该词越符合您的情况"
+	/fontstyle = ("楷体", 5%, false, false, false, false, 5, 1)
+	/subcaptionfontstyle = ("楷体", 3%, false, false, false, false, 5, 1)
+	/itemfontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/responsefontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/txcolor = (0, 0, 0)
+	/questions = [1 = q5, q6, q7, q8, q9]
+	/showpagenumbers = false
+	/showquestionnumbers = false
+    /nextlabel = "按空格键继续"
+</surveypage>
+
+<surveypage page3>
+	/caption ="请按照您的情况对以下形容感受的词语进行打分"
+	/subcaption = "分数越高意味着该词越符合您的情况"
+	/fontstyle = ("楷体", 5%, false, false, false, false, 5, 1)
+	/subcaptionfontstyle = ("楷体", 3%, false, false, false, false, 5, 1)
+	/itemfontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/responsefontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/txcolor = (0, 0, 0)
+	/questions = [1 = q10, q11, q12, q13, q14]
+	/showpagenumbers = false
+	/showquestionnumbers = false
+    /nextlabel = "按空格键继续"
+</surveypage>
+
+<surveypage page4>
+	/caption ="请按照您的情况对以下形容感受的词语进行打分"
+	/subcaption = "分数越高意味着该词越符合您的情况"
+	/fontstyle = ("楷体", 5%, false, false, false, false, 5, 1)
+	/subcaptionfontstyle = ("楷体", 3%, false, false, false, false, 5, 1)
+	/itemfontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/responsefontstyle = ("楷体", 4%, false, false, false, false, 5, 1)
+	/txcolor = (0, 0, 0)
+	/questions = [1 = q15, q16, q17, q18]
+	/showpagenumbers = false
+	/showquestionnumbers = false
+    /nextlabel = "按空格键继续"
+</surveypage>
+======================================================================================================================
+设置4个试次
+
+<trial trial1>
+	/stimulusframes=[1=PICTURE1]
+	/pretrialpause = 500
+	/validresponse = (" ")
+	/recorddata=false
+</trial>
+
+<trial trial2>
+	/stimulusframes=[1=PICTURE2]
+	/pretrialpause = 500
+	/validresponse = (" ")
+	/recorddata=false
+</trial>
+
+<trial trial3>
+	/stimulusframes=[1=PICTURE3]
+	/pretrialpause = 500
+	/validresponse = (" ")
+	/recorddata=false
+</trial>
+
+<trial trial4>
+	/stimulusframes=[1=PICTURE4]
+	/pretrialpause = 500
+	/validresponse = (" ")
+	/recorddata=false
+</trial>
+
+<trial trial5>
+	/stimulusframes=[1=PICTURE5]
+	/pretrialpause = 500
+	/validresponse = (" ")
+	/recorddata=false
+</trial>
+
+==================================================================================
+<block block1>
+	/trials = [1=trial1;2=page1;3=trial4;4=page2;5=page3;6=page4;7=trial5]
+</block>
+
+<block block2>
+	/trials = [1=trial2;2=page1;3=trial4;4=page2;5=page3;6=page4;7=trial5]
+</block>
+
+<block block3>
+	/trials = [1=trial3;2=page1;3=trial4;4=page2;5=page3;6=page4;7=trial5]
+</block>
+==================================================================================
+
+<expt>
+	/preinstructions = (instruct1)
+	/blocks = [1=noreplace(block1,block2,block3)]
+</expt>
