@@ -6,5 +6,5 @@ This is the homework of six girls in BNU psycology department. we want to get a 
 六个人的分工为：问卷：刘宁馨；程序组：曹昂，田穗子；网页：魏倩倩，苏嘉宝。
 大家都参与了选题、阅读文献等环节，其中赵逸雪同学在做总结归纳的同时也参与了网页和程序的一部分内容，最终采用田穗子同学找到的范式，田穗子同学写了实验报告（网页的文字内容）。
 
-[demo](https://html.preview/github.io/?
+[demo](https://html.preview/github.io/？
 https://ningxinliu.github.io/homework-for-6/pages-1.html)
